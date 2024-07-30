@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+    int a = 5;
+    int b;
+
+    
+    b = ++a; // Prefix: a is incremented first, then assigned to b
+    printf("After prefix increment: a = %d, b = %d\n", a, b);
+
+    
+    a = 5;
+
+    b = a++; 
+    printf("After postfix increment: a = %d, b = %d\n", a, b);
+
+    
+    b = --a; 
+    printf("After prefix decrement: a = %d, b = %d\n", a, b);
+
+    
+    a = 5;
+
+    b = a--;
+    printf("After postfix decrement: a = %d, b = %d\n", a, b);
+
+    return 0;
+}
