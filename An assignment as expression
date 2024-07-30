@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    int result;
+
+    
+    a = 5;
+
+    // Using the assignment in an expression
+    result = (a = 10) + 5; // Here, a is assigned 10 and then used in the expression
+
+    printf("a = %d\n", a);
+    printf("result = %d\n", result);
+
+    return 0;
+}
